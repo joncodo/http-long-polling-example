@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha spec/*.coffee -R spec --require coffee-script/register --compilers coffee:coffee-script/register -t 999999",
+    "test": "./node_modules/.bin/coffee external_server.coffee",
     "start": "./node_modules/.bin/coffee server.coffee"
   },
   "author": "",
