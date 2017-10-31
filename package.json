@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha spec/*.coffee -R spec --require coffee-script/register --compilers coffee:coffee-script/register -t 6000",
+    "test": "./node_modules/.bin/mocha spec/*.coffee -R spec --require coffee-script/register --compilers coffee:coffee-script/register -t 999999",
     "start": "./node_modules/.bin/coffee server.coffee"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "coffee-script": "^1.12.7",
+    "express": "^4.16.2",
     "mocha": "^4.0.1",
     "supertest": "^3.0.0"
   }

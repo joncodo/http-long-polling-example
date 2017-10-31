@@ -2,4 +2,4 @@
 
 Run the server with `npm start`
 
-In another window, test the sever with `npm test`
+In another window, test the sever with `node external_server.js`
